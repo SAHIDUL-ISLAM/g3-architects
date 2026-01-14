@@ -193,3 +193,15 @@ nav ul li, nav ul li a{
     filter: grayscale(100%);
 }
 /* sponspors */
+/* footer   */
+footer{
+    text-align: center;
+    background-color: rgba(255, 144, 14, 0.1);
+    padding: 40px ;
+    border-radius: 8px;
+}
+#footer-section{
+    margin-top: 130px;
+    margin-bottom: 20px;
+}
+/* footer   */
