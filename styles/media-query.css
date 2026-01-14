@@ -92,7 +92,27 @@
         font-size: 2rem;
         font-weight: 700;
     }
+    .fact-section {
+        margin-top: 30px;
+        padding: 0px 20px;
+    }
+    .fact-section h1 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+    .fact-card {
+        margin-top: 30px;
+        gap: 20px;
+        flex-direction: column;
+        margin: 20px 40px;
+    }
+    .fact-main-card {
+        padding: 5px;
+    }
+    .fact-section p {
+        max-width: 80%;
+    }
 
 
-}    
+}
 /* for small device  */
