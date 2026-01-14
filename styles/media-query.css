@@ -1,0 +1,43 @@
+.hide{
+    display: none !important;
+}
+
+/* for small device  */
+@media  screen and (max-width:576px) {
+    header .container nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .nav-manu {
+    padding: 20px 0px;
+    }
+    .list-item {
+    gap: 10px;
+    flex-wrap: wrap;
+    }
+    .hero-content {
+    text-align: center;
+    padding: 0px 20px;
+    }
+    .hero-title {
+    font-size: 2.5rem;
+    }
+    .hero-description {
+    margin-top: 20px;
+    }
+    .hero-btn {
+    padding: 10px 15px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    }
+    .hero-banner-img {
+    max-width: 100%;
+    margin-bottom: 25px;
+    padding: 0px 20px;
+    }
+
+}    
+/* for small device  */
