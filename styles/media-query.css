@@ -13,6 +13,7 @@
     padding: 20px 0px;
     }
     .list-item {
+    margin-top: 15px;
     gap: 10px;
     flex-wrap: wrap;
     }
