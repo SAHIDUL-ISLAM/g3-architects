@@ -1,6 +1,6 @@
-.hide{
+/* .hide{
     display: none !important;
-}
+} */
 
 /* for small device  */
 @media  screen and (max-width:576px) {
@@ -111,6 +111,31 @@
     }
     .fact-section p {
         max-width: 80%;
+    }
+    .sponspors{
+        padding: 0px 20px;
+    }
+    .sponspors-content-section {
+        margin-top: 20px;
+    }
+    .sponspors-img-section {
+        gap: 40px;
+        margin-top: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sponspors-img-section img{
+        width: 40%;
+    }
+    .sponspors-content-section h1 {
+        font-size: 2rem;
+    }
+    #footer-section {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+        footer {
+        padding: 10px;
     }
 
 
