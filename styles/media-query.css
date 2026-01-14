@@ -1,8 +1,8 @@
-/* .hide{
+.hide{
     display: none !important;
-} */
+}
 
-/* for small device  */
+/* for mobile device  */
 @media  screen and (max-width:576px) {
     header .container nav {
     flex-direction: column;
@@ -139,6 +139,98 @@
         padding: 10px;
     }
 
+}
+/* for mobile device  */
+
+/* for big mobile  */
+@media screen and (min-width:576px) and (max-width:768px){
+    .head-content{
+        padding: 0px 30px;
+    }
+    .nav-manu {
+        padding: 20px 0px;
+    }
+    .list-item {
+        gap: 8px;
+    }
+    .nav-title {
+        font-size: 1.75rem;
+    }
+    .hero-title {
+        font-size: 2.75rem;
+    }
+    .hero-content {
+        padding: 10px 50px;
+    }
+    .features-section {
+        gap: 30px;
+        margin: 35px 30px 10px;
+        flex-direction: column;
+    }
+    .features-btn {
+        padding: 20px 25px;
+        margin-top: 0px;
+    }
+    .features-description {
+        margin: 18px 0px;
+        padding-right: 50px;
+    }
+    .img-card {
+        gap: 15px;
+    }
+    .img-card img{
+        max-width: 100%;
+    }
+    .features-main-card{
+        padding: 30px 30px;
+        flex-direction: column;
+    }
+    .right-section img{
+        max-width: 100%;
+    }
+    .btn-flex{
+        justify-content: center;
+    }
+    .experience-btn {
+        padding: 25px;
+        margin-top: -70px;
+    }
+    .experience-btn h1 {
+        font-size: 2.5rem;
+    }
+    .fact-section {
+        margin-top: 0px;
+        padding: 30px 30px;
+    }
+    .fact-section p {
+        max-width: 80%;
+    }
+    .fact-card {
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 18px;
+    
+    }
+    .sponspors-content-section {
+        margin-top: 30px;
+    }
+    .sponspors{
+        padding: 0px 30px;
+    }
+    .sponspors-img-section {
+        gap: 80px;
+        margin-top: 30px;
+        flex-wrap: wrap;
+    }
+    #footer-section {
+        margin-top: 35px;
+    }
+    footer{
+        padding: 15px;
+    }
+
 
 }
-/* for small device  */
+/* for big mobile  */
+
