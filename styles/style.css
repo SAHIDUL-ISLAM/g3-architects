@@ -1,0 +1,152 @@
+/* font  */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+/* common class  */
+.display-flex{
+    display: flex;
+}
+.gray-text{
+    color: #727272;
+}
+.btn{
+    background-color: #FF900E;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+.container{
+    max-width: 1440px;
+    margin: auto;
+}
+/* common class  */
+
+
+/* header  */
+header{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+header .container nav{
+    justify-content: space-between;
+}
+nav ul li, nav ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: #727272;
+}
+.list-item{
+    gap: 30px;
+}
+.nav-manu{
+    padding: 50px 0px;
+}
+.nav-title{
+    font-size: 2.5rem;
+}
+.hero-content{
+    text-align: center;
+    padding: 0px 290px;
+}
+.hero-title{
+    font-size: 4rem;
+}
+.hero-description{
+    margin-top: 50px;
+}
+.hero-btn{
+    padding: 20px 25px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 1.25rem;
+}
+.hero-banner-img{
+    max-width: 100%;
+    margin-bottom: 45px;
+}
+/* header  */
+
+/* features section  */
+.features-section{
+    gap: 73px;
+    margin: 85px 60px 130px;
+}
+.img-card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.features-content{
+    align-items: center;
+}
+.features-content h1{
+    font-size: 2.5rem;
+}
+.features-feature-title{
+    color: #FF900E;
+    padding-right: 127px;
+}
+.features-description{
+    margin: 32px 0px;
+    padding-right: 61px;
+}
+.features-btn{
+    padding: 20px 25px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 1.25rem;
+}
+/* features section  */
+/* feature one card another img section  */
+.features-main-card{
+    justify-content: space-between;
+    gap: 54px;
+
+}
+.left-card-section{
+    padding-right: 50px;
+}
+.left-card-section h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    border-left: 4px solid #FF900E;
+    padding: 0px 92px 24px 26px;
+}
+.left-card-section p{
+    margin-top: 20px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+.card-section{
+    flex-direction: column;
+    gap: 20px;
+}
+.f-card{
+    padding: 30px;
+    box-shadow: 0px 0px 15px 0px #00000036;
+    border-radius: 8px;
+}
+.right-section img{
+    width: 100vh;
+}
+.experience-btn{
+    background-color: #FF900E;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    padding: 40px;
+    margin-top: -70px;
+    margin-left: -70px;
+}
+.experience-btn h1{
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 0px;
+}
+/* feature one card another img section  */
