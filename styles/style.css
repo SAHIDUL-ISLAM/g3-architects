@@ -78,7 +78,7 @@ nav ul li, nav ul li a{
 /* features section  */
 .features-section{
     gap: 73px;
-    margin: 85px 60px 130px;
+    padding: 85px 60px 130px;
 }
 .img-card{
     display: grid;
@@ -113,9 +113,7 @@ nav ul li, nav ul li a{
     gap: 54px;
 
 }
-.left-card-section{
-    padding-right: 50px;
-}
+
 .left-card-section h1{
     font-size: 2.5rem;
     font-weight: 700;

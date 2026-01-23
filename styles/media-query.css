@@ -1,9 +1,8 @@
-.hide{
-    display: none !important;
-}
+
 
 /* for mobile device  */
 @media  screen and (max-width:576px) {
+    
     header .container nav {
     flex-direction: column;
     justify-content: center;
